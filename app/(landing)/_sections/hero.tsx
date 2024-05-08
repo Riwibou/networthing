@@ -75,6 +75,7 @@ const HeroDL = () => {
                         height={50}
                     />
                 </Link>
+                <Link href="https://github.com/Riwibou">Made by Riwibou</Link>
             </div>
         </div>
     )
