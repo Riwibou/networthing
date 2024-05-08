@@ -45,8 +45,8 @@ export const Navbar = () => {
                     </NavigationMenuItem>
                 </NavigationMenuList>
                 <NavigationMenuList className="flex justify-between items-center font-light space-x-14 text-xs">
-                    {navigation.map((link) => (
-                        <NavigationMenuItem className="cursor-pointer hover:underline">
+                    {navigation.map((link, index) => (
+                        <NavigationMenuItem key={index} className="cursor-pointer hover:underline">
                             <NavigationMenuLink>
                                 {link.item}
                             </NavigationMenuLink>
